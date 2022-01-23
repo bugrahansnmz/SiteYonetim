@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbSYSModelStoreContainer" CdmEntityContainer="DbSYSEntities1">
+    <EntitySetMapping Name="GelirGider">
+      <EntityTypeMapping TypeName="DbSYSModel.GelirGider">
+        <MappingFragment StoreEntitySet="GelirGider">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GelirGiderTuru" ColumnName="GelirGiderTuru" />
+          <ScalarProperty Name="GelirGiderTutar" ColumnName="GelirGiderTutar" />
+          <ScalarProperty Name="GelirGiderAciklama" ColumnName="GelirGiderAciklama" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="KaydedenKisi" ColumnName="KaydedenKisi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiteAidat">
+      <EntityTypeMapping TypeName="DbSYSModel.SiteAidat">
+        <MappingFragment StoreEntitySet="SiteAidat">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Blok" ColumnName="Blok" />
+          <ScalarProperty Name="DaireNo" ColumnName="DaireNo" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Tutar" ColumnName="Tutar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiteSakinleri">
+      <EntityTypeMapping TypeName="DbSYSModel.SiteSakinleri">
+        <MappingFragment StoreEntitySet="SiteSakinleri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Blok" ColumnName="Blok" />
+          <ScalarProperty Name="DaireNo" ColumnName="DaireNo" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yonetici">
+      <EntityTypeMapping TypeName="DbSYSModel.Yonetici">
+        <MappingFragment StoreEntitySet="Yonetici">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Blok" ColumnName="Blok" />
+          <ScalarProperty Name="DaireNo" ColumnName="DaireNo" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
