@@ -9,7 +9,7 @@ namespace SiteYonetim.Forms
 {
     public partial class FrmGelirGiderIslem : Form
     {
-        DbSYSEntities1 db = new DbSYSEntities1();
+        DbSYSEntities2 db = new DbSYSEntities2();
         int gelirToplam = 0;
         int giderToplam = 0;
         List<char> txtMoneyValue;

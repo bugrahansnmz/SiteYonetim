@@ -13,21 +13,24 @@ namespace SiteYonetim.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DbSYSEntities1 : DbContext
+    public partial class DbSYSEntities2 : DbContext
     {
-        public DbSYSEntities1()
-            : base("name=DbSYSEntities1")
+        public DbSYSEntities2()
+            : base("name=DbSYSEntities2")
         {
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            throw new UnintentionalCodeFirstException();
+            modelBuilder.Entity<GelirGider>().ToTable("GelirGider");
+            modelBuilder.Entity<SiteAidat>().ToTable("SiteAidat");
+            modelBuilder.Entity<SiteSakinleri>().ToTable("SiteSakinleri");
+            modelBuilder.Entity<Yonetici>().ToTable("Yonetici");
         }
-    
         public virtual DbSet<GelirGider> GelirGider { get; set; }
         public virtual DbSet<SiteAidat> SiteAidat { get; set; }
         public virtual DbSet<SiteSakinleri> SiteSakinleri { get; set; }
         public virtual DbSet<Yonetici> Yonetici { get; set; }
+
     }
 }

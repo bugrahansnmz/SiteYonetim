@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbSYSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'DbSYS.dbo.GelirGider' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="GelirGider">
+          <Property Name="ID" Type="int" />
+          <Property Name="GelirGiderTuru" Type="varchar" MaxLength="50" />
+          <Property Name="GelirGiderTutar" Type="decimal" Precision="18" Scale="3" />
+          <Property Name="GelirGiderAciklama" Type="varchar" MaxLength="50" />
+          <Property Name="Tarih" Type="datetime" />
+          <Property Name="KaydedenKisi" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'DbSYS.dbo.SiteAidat' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="SiteAidat">
+          <Property Name="Id" Type="int" />
+          <Property Name="Blok" Type="varchar" MaxLength="50" />
+          <Property Name="DaireNo" Type="int" />
+          <Property Name="Ad" Type="varchar" MaxLength="50" />
+          <Property Name="Soyad" Type="varchar" MaxLength="50" />
+          <Property Name="Telefon" Type="varchar" MaxLength="50" />
+          <Property Name="Tarih" Type="datetime" />
+          <Property Name="Tutar" Type="decimal" Precision="18" Scale="3" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'DbSYS.dbo.SiteSakinleri' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="SiteSakinleri">
+          <Property Name="Id" Type="int" />
+          <Property Name="Blok" Type="varchar" MaxLength="50" />
+          <Property Name="DaireNo" Type="int" />
+          <Property Name="Ad" Type="varchar" MaxLength="50" />
+          <Property Name="Soyad" Type="varchar" MaxLength="50" />
+          <Property Name="Telefon" Type="varchar" MaxLength="50" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'DbSYS.dbo.Yonetici' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Yonetici">
+          <Property Name="Id" Type="int" />
+          <Property Name="Blok" Type="varchar" MaxLength="50" />
+          <Property Name="DaireNo" Type="int" />
+          <Property Name="Ad" Type="varchar" MaxLength="50" />
+          <Property Name="Soyad" Type="varchar" MaxLength="50" />
+          <Property Name="Telefon" Type="varchar" MaxLength="50" />
+          <Property Name="Tarih" Type="datetime" />
+        </EntityType>-->
+  <EntityContainer Name="DbSYSModelStoreContainer" />
+</Schema>

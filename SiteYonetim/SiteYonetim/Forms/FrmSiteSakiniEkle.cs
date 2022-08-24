@@ -13,7 +13,7 @@ namespace SiteYonetim.Forms
 {
     public partial class FrmSiteSakiniEkle : Form
     {
-        DbSYSEntities1 db = new DbSYSEntities1();
+        DbSYSEntities2 db = new DbSYSEntities2();
         public FrmSiteSakiniEkle()
         {
             InitializeComponent();
